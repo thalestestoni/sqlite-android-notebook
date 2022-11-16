@@ -1,2 +1,17 @@
-# sqlite-android-notebook
-Notebook containing notes about my learning developing mobile apps to android using sqlite to store and manage data. It's parte of my graduation degree.
+## 📒 SQLite android notebook
+
+Note about learnings SQLite on android. This is part what i'm learning about develop to mobile devices in my graduation degree.
+
+### 📌 Repository structure
+
+As pastas pricipais deste reposítório são:
+
+- [notes](./notes/): Notes about the learning using sqlite on android.
+- [pratice](./pratice/): Pratical examples using sqlite on android.
+
+### 👨‍💻 Pratice structure
+
+🚧 Building...
+
+### 🔗 Recursos
+🚧 Building...
