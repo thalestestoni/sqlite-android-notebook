@@ -10,5 +10,7 @@ Note about learnings SQLite on android. This is part what i'm learning about dev
 
 🚧 Building...
 
-### 🔗 Recursos
-🚧 Building...
+### 🔗 Resources
+
+- [About SQLite](https://www.sqlite.org/about.html)
+- [Appropriate uses for SQLite](https://www.sqlite.org/whentouse.html)
