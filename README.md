@@ -4,10 +4,7 @@ Note about learnings SQLite on android. This is part what i'm learning about dev
 
 ### 📌 Repository structure
 
-As pastas pricipais deste reposítório são:
-
-- [notes](./notes/): Notes about the learning using sqlite on android.
-- [pratice](./pratice/): Pratical examples using sqlite on android.
+🚧 Building...
 
 ### 👨‍💻 Pratice structure
 
