@@ -90,12 +90,15 @@ public class StudentsDB extends SQLiteOpenHelper {
 
             Cursor cursor = db.query("student", null, "_id=?", new String[] { String.valueOf(studentId) }, null, null, null, null);
 
-            if (cursor.moveToFirst()) {
+            // found any student
+            if (cursor.getCount() > 0) {
                 student.id = cursor.getLong(cursor.getColumnIndexOrThrow("_id"));
                 student.name = cursor.getString(cursor.getColumnIndexOrThrow("name"));
             } else {
                 throw new SQLiteException();
             }
+
+            cursor.close();
 
             return student;
         }

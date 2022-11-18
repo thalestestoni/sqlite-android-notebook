@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Saving data using room</string>
+    <string name="add_note">Add a note</string>
+    <string name="hint_note">Note...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Note not saved because it is empty</string>
+
+    <color name="buttonLabel">#FFFFFF</color>
+</resources>
