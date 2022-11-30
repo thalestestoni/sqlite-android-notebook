@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/103708/repositories/Thales/sqlite-android-notebook/pratice/saving-data-using-room/app/src/main/res/layout/activity_edit_note.xml" value="0.33" />
         <entry key="..\:/Users/103708/repositories/Thales/sqlite-android-notebook/pratice/saving-data-using-room/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/103708/repositories/Thales/sqlite-android-notebook/pratice/saving-data-using-room/app/src/main/res/layout/activity_new_note.xml" value="0.1984375" />
+        <entry key="..\:/Users/103708/repositories/Thales/sqlite-android-notebook/pratice/saving-data-using-room/app/src/main/res/layout/activity_new_note.xml" value="0.25" />
         <entry key="..\:/Users/103708/repositories/Thales/sqlite-android-notebook/pratice/saving-data-using-room/app/src/main/res/layout/recyclerview_item.xml" value="0.1984375" />
+        <entry key="..\:/Users/103708/repositories/Thales/sqlite-android-notebook/pratice/saving-data-using-room/app/src/main/res/menu/main_menu.xml" value="0.33" />
+        <entry key="..\:/Users/103708/repositories/Thales/sqlite-android-notebook/pratice/saving-data-using-room/app/src/main/res/xml/searchable.xml" value="0.3609375" />
       </map>
     </option>
   </component>

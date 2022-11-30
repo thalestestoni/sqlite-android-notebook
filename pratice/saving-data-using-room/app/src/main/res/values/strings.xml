@@ -1,9 +1,18 @@
 <resources>
-    <string name="app_name">Saving data using room</string>
+    <string name="app_name">My notes</string>
     <string name="add_note">Add a note</string>
     <string name="hint_note">Note...</string>
     <string name="button_save">Save</string>
     <string name="empty_not_saved">Note not saved because it is empty</string>
-
+    <string name="hint_note_title">New title</string>
+    <string name="hint_note_text">New note text</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="text_delete_button">Delete</string>
+    <string name="confirm_action_message">Do you want to proceed?</string>
+    <string name="confirm_action_yes">Yes</string>
+    <string name="actions_note_cancel">No</string>
+    <string name="confirm_action_no">No</string>
+    <string name="search_hint">Search note by title</string>
+    <string name="search_title">Search notes by title</string>
     <color name="buttonLabel">#FFFFFF</color>
 </resources>

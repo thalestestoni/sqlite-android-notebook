@@ -1,5 +1,6 @@
 package ifsc.testoni.savingdatausingroom;
 
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
@@ -7,6 +8,9 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 
 public class NoteListAdapter extends ListAdapter<Note, NoteViewHolder> {
+    public interface NoteOnClickListener {
+        public void onClickNote(View view);
+    }
 
     public NoteListAdapter(@NonNull DiffUtil.ItemCallback<Note> diffCallback) {
         super(diffCallback);
@@ -19,9 +23,8 @@ public class NoteListAdapter extends ListAdapter<Note, NoteViewHolder> {
 
     @Override
     public void onBindViewHolder(NoteViewHolder holder, int position) {
-        Note current = getItem(position);
-        holder.bind(current.title);
-
+        Note note = getItem(position);
+        holder.bind(note);
     }
 
     static class NoteDiff extends DiffUtil.ItemCallback<Note> {

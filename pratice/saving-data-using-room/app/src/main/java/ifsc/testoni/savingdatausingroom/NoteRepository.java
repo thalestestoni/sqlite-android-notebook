@@ -21,9 +21,26 @@ public class NoteRepository {
         return mAllNotes;
     }
 
+    LiveData<List<Note>> getByTitle(String title) {
+        String likeTitle = "%"+title+"%";
+        return mNoteDao.getByTitle(likeTitle);
+    }
+
     void insert(Note note) {
         NoteRoomDatabase.databaseWriteExecutor.execute(() -> {
             mNoteDao.insert(note);
+        });
+    }
+
+    void update(Note note) {
+        NoteRoomDatabase.databaseWriteExecutor.execute(() -> {
+            mNoteDao.update(note);
+        });
+    }
+
+    void delete (Note note) {
+        NoteRoomDatabase.databaseWriteExecutor.execute(() -> {
+            mNoteDao.delete(note);
         });
     }
 }
