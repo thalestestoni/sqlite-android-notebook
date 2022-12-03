@@ -9,5 +9,8 @@
         style="@style/note_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_orange_light" />
+        android:background="@drawable/rounded_corner_view"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:padding="@dimen/mid_padding" />
 </LinearLayout>

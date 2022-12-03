@@ -1,12 +1,11 @@
 package ifsc.testoni.savingdatausingroom;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.DialogFragment;
-import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -28,6 +27,8 @@ public class NewNoteActivity extends AppCompatActivity {
 
         setOnClickListenerSaveButton();
         setOnClickListenerCancelButton();
+
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.main_theme)));
     }
 
     private void setOnClickListenerSaveButton() {

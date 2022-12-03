@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -34,7 +35,12 @@ public class MainActivity extends AppCompatActivity {
             adapter.submitList(notes);
         });
 
-       setOnClickListenerFabButton();
+        setActionBarColor();
+        setOnClickListenerFabButton();
+    }
+
+    private void setActionBarColor() {
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.main_theme)));
     }
 
     private void setOnClickListenerFabButton() {
