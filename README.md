@@ -2,7 +2,7 @@
 
 Note from my studies aboute SQLite on android. This is part what i'm learning about develop to mobile devices in my graduation degree.
 
-At firt of my studies i was using pure SQLite API to save data on SQLite database, but querying Android documentations i met the Android ROOM library, that provides an abstraction layer over SQLite. In Android docs, ROOM is recommended for more robust app and database. That's why, this repository contains two implementations of SQLite, one using pure SQLite API and other using ROOM.
+At first of my studies i was using pure SQLite API to save data on SQLite database, but querying Android documentations i met the Android ROOM library, that provides an abstraction layer over SQLite. In Android docs, ROOM is recommended for more robust app and database. That's why, this repository contains two implementations of SQLite, one using pure SQLite API and other using ROOM.
 
 ### 📌 Repository structure
 
