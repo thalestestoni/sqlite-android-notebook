@@ -10,32 +10,21 @@ import android.os.Bundle;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    SQLiteDatabase db;
-
+    StudentsDB db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        db = openOrCreateDatabase("db", MODE_PRIVATE, null);
-        db.execSQL("CREATE TABLE IF NOT EXISTS students (_id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT)");
+        this.db = new StudentsDB(this);
     }
 
-    public void insertNote() {
-        ContentValues contentValues = new ContentValues();
-        contentValues.put("name", "Thales");
-        db.insert("students", null, contentValues);
+    public void saveStudent() {
+        Student student = new Student();
+        student.name = "Thales";
+        db.save(student);
     }
 
     public void showStudents() {
-        Cursor cursor = db.rawQuery("SELECT id, name FROM students", null);
-        cursor.moveToFirst();
-
-        ArrayList<String> names = new ArrayList<>();
-
-        do {
-            String name = cursor.getString(cursor.getColumnIndexOrThrow("name"));
-            names.add(name);
-        } while (cursor.moveToNext());
+        db.findAll();
     }
 }
