@@ -1,4 +1,4 @@
-## Summary
+## 📑 Summary
 
 - [Complete example class](#complete-example-class)
   - [Exaplanning complete example](#exaplanning-complete-example)
@@ -9,7 +9,7 @@
   - [Querying data](#querying-data)
 - [Resources](#-resources)
 
-## Complete example class
+## 📍 Complete example class
 
 This is an db class full implmentation of SQLite configurations and operations.
 
@@ -188,9 +188,9 @@ public void doSomething() {
 
 The `getWritableDatabase` method will try open database and if not exists, the `onCreate` method will be called to create tables.
 
-## Basic operations
+## 🎯 Basic operations
 
-### Inserting data
+### ⬇ Inserting data
 
 To insert data on database it's need create an objet of type `android.content.ContentValues`, that cotains a structued of type key-value, on each key represents the table column name.
 After create `ContentValues` object with the values to insert on database, we should call method `insert(tableName, nullColumnHack, contentValues)`.
@@ -208,7 +208,7 @@ The above code generates follow sql:
 insert into students(name) values('Student 1');
 ```
 
-### Updating data
+### 🔃 Updating data
 
 To update a record on database we should be call the `update` method from `SQLiteDatabase` object.
 
@@ -228,7 +228,7 @@ The put method will generate follow sql:
 update student set name='New name student' where _id=1
 ```
 
-### Deleting data
+### 🗑️ Deleting data
 
 To delete a record from database, we should use method `delete(table, where, whereArgs)`.
 
@@ -244,7 +244,7 @@ Generated SQL:
 delete from "student" where id=1;
 ```
 
-### Querying data
+###  Querying data
 
 To query data, we should be call method `query(...)`, passing as main arguments the table name and the where clauses. The object returned from `query` method is of type `android.database.Cursor`, that will be used to read the values returned from query.
 
