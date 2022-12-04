@@ -5,7 +5,7 @@
 - [Basic operations](#-basic-operations)
   - [Inserting data](#-inserting-data)
   - [Updating data](#-updating-data)
-  - [Deleting data](#🗑️-deleting-data)
+  - [Deleting data](#-deleting-data)
   - [Querying data](#-querying-data)
 - [Resources](#-resources)
 
