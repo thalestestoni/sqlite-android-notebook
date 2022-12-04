@@ -1,5 +1,6 @@
 ## 📑 Summary
 
+- [Introduction](#-introduction)
 - [Complete example class](#-complete-example-class)
   - [Exaplanning complete example](#exaplanning-complete-example)
 - [Basic operations](#-basic-operations)
@@ -9,7 +10,11 @@
   - [Querying data](#-querying-data)
 - [Resources](#-resources)
 
-## 📍 Complete example class
+## 📍 Introduction
+
+This document contains all notes made by me during me learning about SQLite on Android. You will find how to store and manage data in a offline database on Android using the SQLite API. Here stay only notes, but if you want to see application using this conceptes, go to [`pratice > saving-data-using-sqlite-api`](/pratice/saving-data-using-sqlite-api).
+
+## 🧑‍💻 Complete example class
 
 This is an db class full implmentation of SQLite configurations and operations.
 
