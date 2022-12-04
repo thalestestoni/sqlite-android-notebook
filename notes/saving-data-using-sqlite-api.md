@@ -264,4 +264,4 @@ if (cursor.getCount > 0) {
 
 ## 🔗 Resources
 - [Android docs - Save data using SQLite](https://developer.android.com/training/data-storage/sqlite)
-- [Google Android book, chap 18, pg 551.](https://novatec.com.br/livros/google-android-5ed/)
+- [Google Android book (chap 18, pg 551)](https://novatec.com.br/livros/google-android-5ed/)
