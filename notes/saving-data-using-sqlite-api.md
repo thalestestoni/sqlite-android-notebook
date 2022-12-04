@@ -1,12 +1,12 @@
 ## 📑 Summary
 
-- [Complete example class](#complete-example-class)
+- [Complete example class](#-complete-example-class)
   - [Exaplanning complete example](#exaplanning-complete-example)
-- [Basic operations](#basic-operations)
-  - [Inserting data](#inserting-data)
-  - [Updating data](#updating-data)
-  - [Deleting data](#deleting-data)
-  - [Querying data](#querying-data)
+- [Basic operations](#-basic-operations)
+  - [Inserting data](#-inserting-data)
+  - [Updating data](#-updating-data)
+  - [Deleting data](#-deleting-data)
+  - [Querying data](#-querying-data)
 - [Resources](#-resources)
 
 ## 📍 Complete example class
@@ -244,7 +244,7 @@ Generated SQL:
 delete from "student" where id=1;
 ```
 
-###  Querying data
+### 🔍 Querying data
 
 To query data, we should be call method `query(...)`, passing as main arguments the table name and the where clauses. The object returned from `query` method is of type `android.database.Cursor`, that will be used to read the values returned from query.
 
