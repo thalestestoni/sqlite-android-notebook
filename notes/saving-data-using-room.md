@@ -1,10 +1,10 @@
 ## 📑 Summary
 
-- [Introduction](#introduction)
-- [Entity](#entity)
-- [DAO - Data access object](#dao---data-access-object)
-- [Room database](#room-database)
-- [Resources](#resources)
+- [Introduction](#-introduction)
+- [Entity](#-entity)
+- [DAO - Data access object](#-dao---data-access-object)
+- [Room database](#-room-database)
+- [Resources](#-resources)
 
 ## 📍 Introduction
 
