@@ -228,7 +228,7 @@ The put method will generate follow sql:
 update student set name='New name student' where _id=1
 ```
 
-### 🗑️ Deleting data
+### Deleting data
 
 To delete a record from database, we should use method `delete(table, where, whereArgs)`.
 
